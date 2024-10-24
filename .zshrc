@@ -6,12 +6,6 @@ HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 setopt EXTENDED_HISTORY
 
-# Colored terminal output
-if [ -f "~/.config/lscolors.sh" ]; then
-  source ~/.config/lscolors.sh
-  export CLICOLOR=1
-fi
-
 # Aliases
 if type eza &>/dev/null
 then
