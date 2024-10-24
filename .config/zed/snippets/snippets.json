@@ -1,0 +1,47 @@
+{
+  "console_log": {
+    "prefix": "log",
+    "body": ["console.log($1)"],
+    "description": "Expand `log` to `console.log()`"
+  },
+  "function": {
+    "prefix": "func",
+    "body": ["function $1() {}\n"],
+    "description": "Function snippet"
+  },
+  "async_function": {
+    "prefix": "afunc",
+    "body": ["async function $1() {}\n"],
+    "description": "Async function snippet"
+  },
+  "class": {
+    "prefix": "cls",
+    "body": ["class $1 {}\n"],
+    "description": "Class snippet"
+  },
+  "class_constructor": {
+    "prefix": "clc",
+    "body": ["class $1 {", "constructor() {}", "}\n"],
+    "description": "Class with constructor"
+  },
+  "import_default": {
+    "prefix": "imd",
+    "body": ["import $1 from '$1';\n"],
+    "description": "Import default"
+  },
+  "import_everything": {
+    "prefix": "ime",
+    "body": ["import * from '$1';\n"],
+    "description": "Import everything"
+  },
+  "import_part": {
+    "prefix": "imp",
+    "body": ["import {$1} from '$1';\n"],
+    "description": "Import module part"
+  },
+  "import_no_name": {
+    "prefix": "imn",
+    "body": ["import '$1';\n"],
+    "description": "Import module without name"
+  }
+}

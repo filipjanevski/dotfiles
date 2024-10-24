@@ -1,0 +1,28 @@
+"$schema": https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+blocks:
+  - alignment: left
+    segments:
+      - foreground: "#BAEBF6"
+        properties:
+          style: full
+        style: plain
+        template: "{{ .Path }} "
+        type: path
+      - foreground: "#FF8787"
+        properties:
+          branch_icon: "<#FF8787><b>\uE0A0 </b></>"
+          fetch_stash_count: true
+        style: plain
+        template: "<#FCFCFC>on</> {{ .HEAD }} "
+        type: git
+    type: prompt
+  - alignment: left
+    newline: true
+    segments:
+      - foreground: "#C6E472"
+        style: plain
+        template: "❯"
+        type: text
+    type: prompt
+final_space: true
+version: 2

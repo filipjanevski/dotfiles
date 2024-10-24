@@ -1,0 +1,71 @@
+{
+  "project_panel": {
+    "dock": "left"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "show_inline_completions": false,
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "theme": "0x96f Theme",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "working_directory": "current_project_directory",
+    "copy_on_select": false,
+    "font_family": "CommitMono",
+    "font_size": 13
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+  "format_on_save": "off",
+  "languages": {
+    "Make": { "format_on_save": "on", "hard_tabs": true, "tab_size": 4 },
+    "XML": { "format_on_save": "on", "hard_tabs": false, "tab_size": 4 },
+    "YAML": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "JSON": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "TypeScript": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "language_servers": ["typescript-language-server", "!vtsls"]
+    },
+    "TSX": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "language_servers": ["typescript-language-server", "!vtsls"]
+    },
+    "JavaScript": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "Svelte": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "CSS": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "Markdown": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "Go": { "format_on_save": "on" },
+    "Python": { "format_on_save": "on" }
+  },
+  "file_types": {
+    "TSX": ["*.tsx"],
+    "TypeScript": ["*.ts"],
+    "JavaScript": ["*.js", "*.jsx", "*.mjs"],
+    "Dockerfile": ["Dockerfile", "Dockerfile.*"],
+    "Shell": ["*.sh", "*.zsh"],
+    "CSS": ["*.css", "*.scss"]
+  },
+  "font_size": 13,
+  "font_family": "CommitMono",
+  "ui_font_size": 14,
+  "ui_font_family": "CommitMono",
+  "buffer_font_size": 13,
+  "buffer_font_family": "CommitMono"
+}

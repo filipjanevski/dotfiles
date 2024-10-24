@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-t": "task::Spawn",
+      "alt-shift-t": "task::Rerun"
+    }
+  }
+]
