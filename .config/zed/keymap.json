@@ -3,7 +3,8 @@
     "context": "Workspace",
     "bindings": {
       "alt-t": "task::Spawn",
-      "alt-shift-t": "task::Rerun"
+      "alt-shift-t": "task::Rerun",
+      "cmd-`": "assistant::ToggleFocus"
     }
   }
 ]

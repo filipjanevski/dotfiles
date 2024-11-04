@@ -67,5 +67,13 @@
   "ui_font_size": 14,
   "ui_font_family": "CommitMono",
   "buffer_font_size": 13,
-  "buffer_font_family": "CommitMono"
+  "buffer_font_family": "CommitMono",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  }
 }
