@@ -4,40 +4,32 @@
     "type": "small",
   },
   "display": {
-    "separator": "=>  ",
+    "separator": "  =>  ",
     "color": {
       "separator": "green",
     },
   },
   "modules": [
     {
-      "key": "OS             ",
+      "key": "OS      ",
       "type": "os",
     },
     {
-      "key": "Kernel         ",
-      "type": "kernel",
-    },
-    {
-      "key": "Terminal       ",
+      "key": "Terminal",
       "type": "terminal",
     },
     {
-      "key": "Terminal font  ",
+      "key": "Font    ",
       "type": "terminalfont",
     },
     {
-      "key": "Shell          ",
+      "key": "Shell   ",
       "type": "shell",
-    },
-    {
-      "key": "Uptime         ",
-      "type": "uptime",
     },
     "break",
     {
       "type": "colors",
-      "paddingLeft": 6,
+      "paddingLeft": 0,
       "symbol": "block",
     },
   ],
