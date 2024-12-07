@@ -40,17 +40,6 @@ then
   compinit
 fi
 
-# Add local bin
-export PATH=$HOME/.local/bin:$PATH
-
-# Go config
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
-
-# n node version manager
-export N_PREFIX=$HOME/.n
-export PATH=$N_PREFIX/bin:$PATH
-
 # Prompt start
 if type oh-my-posh &>/dev/null
 then
