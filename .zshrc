@@ -41,7 +41,7 @@ then
 fi
 
 # Prompt start
-if type oh-my-posh &>/dev/null
+if type starship &>/dev/null
 then
-  eval "$(oh-my-posh init zsh --config ~/.config/omp-prompt.yaml)"
+  eval "$(starship init zsh)"
 fi

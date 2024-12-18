@@ -1,6 +1,8 @@
 # login shell settings
 # Keep these in ~/.zprofile on macos because /etc/profile loads after ~/.zshenv
 
+export EDITOR=micro
+
 # config files
 export XDG_CONFIG_HOME="$HOME/.config"
 
