@@ -1,0 +1,18 @@
+theme = 0x96f
+auto-update = download
+
+cursor-style = block
+shell-integration-features = no-cursor
+
+font-family = "CommitMono"
+font-size = 14
+
+window-width = 75
+window-height = 24
+window-padding-x = 10
+window-padding-y = 10
+
+macos-titlebar-proxy-icon = hidden
+macos-icon = custom-style
+macos-icon-ghost-color = fcfcfa
+macos-icon-screen-color = 262427
