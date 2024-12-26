@@ -6,7 +6,8 @@ cursor-style = block
 shell-integration-features = no-cursor
 
 font-family = "CommitMono"
-font-size = 14
+font-size = 13
+adjust-cell-height = 10%
 
 window-width = 75
 window-height = 24
