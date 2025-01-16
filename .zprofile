@@ -13,6 +13,9 @@ export HOMEBREW_NO_ENV_HINTS=true
 # local bin
 export PATH="$HOME/.local/bin:$PATH"
 
+# cargo config
+export PATH="$HOME/.cargo:$PATH"
+
 # go config
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"

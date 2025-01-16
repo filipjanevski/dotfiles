@@ -47,7 +47,12 @@
       "tab_size": 2,
       "language_servers": ["typescript-language-server", "!vtsls"]
     },
-    "JavaScript": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "JavaScript": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "language_servers": ["typescript-language-server", "!vtsls"]
+    },
     "Svelte": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "CSS": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "Markdown": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
