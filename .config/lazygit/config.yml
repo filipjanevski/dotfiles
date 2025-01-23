@@ -1,0 +1,28 @@
+gui:
+  scrollHeight: 1
+  scrollPastBottom: false
+  scrollOffMargin: 2
+  mouseEvents: true
+  timeFormat: 2006-01-02
+  shortTimeFormat: 15:04
+  commitLength:
+    show: true
+  showListFooter: false
+  showRandomTip: false
+  showIcons: false
+  showFileIcons: false
+  showBranchCommitHash: true
+  showDivergenceFromBaseBranch: onlyArrow
+  border: double
+  spinner:
+    rate: 100
+    frames:
+      - "|"
+      - /
+      - "-"
+      - \
+git:
+  autoFetch: true
+  autoRefresh: true
+  fetchAll: true
+  disableForcePushing: true
