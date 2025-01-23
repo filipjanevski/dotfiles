@@ -1,22 +1,18 @@
 {
-  "project_panel": {
-    "dock": "left"
-  },
-  "features": {
-    "inline_completion_provider": "none"
-  },
-  "show_inline_completions": false,
-  "assistant": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
-    },
-    "version": "2"
-  },
   "theme": "0x96f Theme",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+  "font_size": 13,
+  "font_family": "CommitMono",
+  "ui_font_size": 14,
+  "ui_font_family": "CommitMono",
+  "buffer_font_size": 13,
+  "buffer_font_family": "CommitMono",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
   },
   "terminal": {
     "working_directory": "current_project_directory",
@@ -28,6 +24,25 @@
     "inline_blame": {
       "enabled": true
     }
+  },
+  "project_panel": {
+    "dock": "left",
+    "entry_spacing": "comfortable",
+    "indent_size": 18
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "show_inline_completions": false,
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "features": {
+    "inline_completion_provider": "none"
   },
   "format_on_save": "off",
   "languages": {
@@ -56,8 +71,8 @@
     "Svelte": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "CSS": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "Markdown": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
-    "Go": { "format_on_save": "on" },
-    "Python": { "format_on_save": "on" }
+    "Go": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "Python": { "format_on_save": "on", "tab_size": 2 }
   },
   "file_types": {
     "TSX": ["*.tsx"],
@@ -67,18 +82,8 @@
     "Shell": ["*.sh", "*.zsh"],
     "CSS": ["*.css", "*.scss"]
   },
-  "font_size": 13,
-  "font_family": "CommitMono",
-  "ui_font_size": 14,
-  "ui_font_family": "CommitMono",
-  "buffer_font_size": 13,
-  "buffer_font_family": "CommitMono",
-  "tab_bar": {
-    "show": true,
-    "show_nav_history_buttons": false
-  },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
