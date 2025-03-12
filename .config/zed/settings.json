@@ -1,5 +1,10 @@
 {
+  "edit_predictions": {
+    "disabled_globs": ["*.md", ".env*", "*.json"],
+    "mode": "eager"
+  },
   "theme": "0x96f Theme",
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "font_size": 13,
   "font_family": "CommitMono",
   "ui_font_size": 14,
@@ -33,23 +38,38 @@
   "collaboration_panel": {
     "button": false
   },
-  "show_inline_completions": false,
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-3-7-sonnet-latest"
     },
     "version": "2"
   },
+  "show_edit_predictions": true,
   "features": {
-    "inline_completion_provider": "none"
+    "edit_prediction_provider": "zed"
   },
   "format_on_save": "off",
   "languages": {
     "Make": { "format_on_save": "on", "hard_tabs": true, "tab_size": 4 },
-    "XML": { "format_on_save": "on", "hard_tabs": false, "tab_size": 4 },
-    "YAML": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
-    "JSON": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "XML": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 4,
+      "show_edit_predictions": false
+    },
+    "YAML": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "show_edit_predictions": false
+    },
+    "JSON": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "show_edit_predictions": false
+    },
     "TypeScript": {
       "format_on_save": "on",
       "hard_tabs": false,
@@ -70,7 +90,14 @@
     },
     "Svelte": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "CSS": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
-    "Markdown": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
+    "Markdown": {
+      "format_on_save": "on",
+      "hard_tabs": false,
+      "tab_size": 2,
+      "wrap_guides": [100],
+      "preferred_line_length": 100,
+      "show_edit_predictions": false
+    },
     "Go": { "format_on_save": "on", "hard_tabs": false, "tab_size": 2 },
     "Python": { "format_on_save": "on", "tab_size": 2 }
   },
