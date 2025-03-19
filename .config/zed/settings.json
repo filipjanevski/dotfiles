@@ -26,6 +26,7 @@
     "font_size": 13
   },
   "git": {
+    "hunk_style": "unstaged_hollow",
     "inline_blame": {
       "enabled": true
     }
